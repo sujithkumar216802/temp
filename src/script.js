@@ -100,8 +100,8 @@ const cube3 = new THREE.BoxGeometry(2,2,2)
 
 //texture
 const textureLoader = new THREE.TextureLoader()
-const texture = textureLoader.load('texture/NormalMap.png')
-const textureRock = textureLoader.load('texture/rock.png')
+const texture = textureLoader.load('./texture/NormalMap.png')
+const textureRock = textureLoader.load('./texture/rock.png')
 
 
 //material
