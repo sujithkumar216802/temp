@@ -12,11 +12,14 @@ body {
 }
 
 .container {
-    height: 100vh;
+    min-height: 100vh;
     min-width: 100vw;
-    color: aquamarine;
     display: grid;
     place-items: center;
+}
+
+h1 {
+    color: aquamarine;
     font-size: 7rem;
 }
 
